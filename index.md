@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Azure Tests
 
-You can use the [editor on GitHub](https://github.com/FloraLuca/AzureTest1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I needed to study Azure cloud technologies for my workplace, so while I was making progress I created a GitHub "study" to share my steps.
+As a first step I just planning to cover some basic tasks, such as creating "Hello World" application in all different forms. Then develope these solutions a bit further by adding more complex technologies.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Useful pages
 
-### Markdown
+- [Using reverse proxy](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Current state
 
-```markdown
-Syntax highlighted code block
+-  AzureStatefulService: A stateful .net core service which is using reverse proxy configuration. Currently returns "Hello World" or 404 on error. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FloraLuca/AzureTest1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
